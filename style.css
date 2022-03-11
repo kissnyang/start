@@ -1,0 +1,46 @@
+.container{
+  display: block;
+}
+ul{
+  width: auto;
+  height: 50px;
+}
+ul li {
+  height: 50px;
+ /*  width: */
+  list-style-type: none; 
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  outline: 1px solid #d3d3d3;
+}
+.menubox {
+  background-color: #fff;
+  padding: 0px;
+  border: 2px #d3d3d3;
+  list-style: none;
+  width: 25%;
+  
+}
+a{
+   text-decoration: none;
+}
+ li a:focus{
+   display: block;
+    color: #fff;
+   background-color: #555555;  
+} 
+br.clear{
+  clear:both
+}
+#box {
+  margin: 10px;
+    width:500px;
+    height:200px;
+    border:1px solid #333;
+}
+@media screen and (max-width: 991px){
+    ul{
+        width:auto;
+     }
+}
